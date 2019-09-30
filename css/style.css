@@ -1,0 +1,215 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    /*Parametros inciales*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/*Parametro encabezado*/
+
+head {
+    height: 0%;
+}
+
+
+/*Parametros del cuerpo bloques, tamaño, fuente y borde*/
+
+body {
+    display: inline-block;
+    margin: 0%;
+    width: 720px;
+    height: 720px;
+    font-family: "Times New Roman", Times, serif;
+    border: #125688;
+    border-style: solid;
+}
+
+
+/*Imagen de fondo o marca de agua*/
+
+.fondo {
+    background-image: url(../img/ANN2.jpg);
+    background-size: 300px 300px;
+}
+
+
+/*parametro del logo del sitio*/
+
+.logo1 {
+    background-color: #125688;
+    border-bottom: #125688 solid;
+}
+
+
+/*parametro del tamaño del logo del sitio*/
+
+.logo1 img {
+    width: 720px;
+}
+
+
+/*parametro del logo del anime posicion, margen, tamaño*/
+
+.logo2 img {
+    float: left;
+    margin: 0px;
+    height: 250px;
+    width: 150px;
+}
+
+
+/*Posicionamiento del siguiente bloque*/
+
+.anime::after {
+    padding-top: 1850px;
+    display: inline;
+}
+
+.bloque {
+    padding: -750px;
+    padding-left: 150px;
+}
+
+
+/*parametros para los favicon de redes sociales*/
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/*Parametros para el de facebook*/
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/*Parametros para el de Twitter*/
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/*Parametros para el de instagram*/
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+/*posicion de los favicones*/
+
+.redes {
+    padding-top: 200px;
+}
+
+
+/*Parametro para el tamaño de la letra*/
+
+div .resume {
+    font-size: 20px;
+}
+
+div .title {
+    font-size: 25px;
+    font-weight: bold;
+}
